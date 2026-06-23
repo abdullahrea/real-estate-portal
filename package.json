@@ -1,0 +1,10 @@
+{
+  "name": "real-estate-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "mkdir -p dist && cp -r css images js videos index.html dist",
+    "test": "node --test tests/calculator.test.js"
+  }
+}
