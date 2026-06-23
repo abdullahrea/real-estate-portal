@@ -1967,4 +1967,149 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+@media (max-width: 576px) {
+  /* Layout Containers */
+  .container {
+    padding: 0 16px !important;
+  }
+
+  /* Navigation Bar */
+  .nav-pill {
+    padding: 0 16px !important;
+    margin: 8px auto !important;
+  }
+  .btn-nav-cta {
+    padding: 8px 14px !important;
+    font-size: 13px !important;
+  }
+
+  /* Typography scale */
+  .hero-title {
+    font-size: 30px !important;
+    line-height: 1.5 !important;
+  }
+  .hero-subtitle {
+    font-size: 17px !important;
+  }
+  .hero-paragraph {
+    font-size: 14px !important;
+  }
+  .jallo-video-title,
+  .calc-title,
+  .section-title-light,
+  .amenities-section h3,
+  .faqs-section h3,
+  .video-info-section h3,
+  .video-gallery-section h3 {
+    font-size: 24px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Section Spacings */
+  .jallo-section,
+  .locations-section,
+  .calculator-section,
+  .faqs-section,
+  .video-info-section,
+  .video-gallery-section {
+    padding: 48px 0 !important;
+  }
+
+  /* CTA Buttons */
+  .hero-cta-row {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 12px !important;
+  }
+  .btn-hero-primary,
+  .btn-hero-secondary {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    padding: 12px 24px !important;
+  }
+
+  /* Trust Badges */
+  .hero-trust-badges {
+    justify-content: center !important;
+    gap: 12px !important;
+  }
+
+  /* Hero Graphics & Video Player Card */
+  .hero-graphics {
+    height: auto !important;
+    padding: 16px 0 !important;
+  }
+  .hero-image-card {
+    width: 100% !important;
+    max-width: 290px !important;
+    height: auto !important;
+    aspect-ratio: 9/16 !important;
+    margin: 0 auto !important;
+  }
+  .radar-circle {
+    display: none !important; /* Hide radar circles on mobile to keep layout clean and prevent shift */
+  }
+
+  /* Horizontal Scroll Containers */
+  .city-selector-container {
+    padding: 0 12px !important;
+  }
+  .city-selector-bar {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 8px !important;
+    padding: 6px !important;
+    justify-content: flex-start !important;
+  }
+  .city-btn {
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    white-space: nowrap !important;
+  }
+
+  .pricing-table-container {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    border-radius: 12px !important;
+    border: 1px solid var(--border-gray) !important;
+  }
+  .pricing-table th,
+  .pricing-table td {
+    padding: 8px 10px !important;
+    font-size: 12px !important;
+  }
+
+  .admin-table-wrapper {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  /* Grid Card Adjustments */
+  .calc-card {
+    padding: 20px !important;
+    border-radius: 16px !important;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)) !important;
+    gap: 16px !important;
+  }
+  .amenities-grid {
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)) !important;
+    gap: 16px !important;
+  }
+  .gallery-info {
+    padding: 16px !important;
+  }
+  .location-card-content {
+    padding: 20px !important;
+  }
+}
+
+
 
